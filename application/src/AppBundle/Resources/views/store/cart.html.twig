@@ -1,0 +1,57 @@
+{% extends '@App/layouts/base.html.twig' %}
+{% block content %}
+
+    <!-- breadcrumbs -->
+    <div class="breadcrumb_dress">
+        <div class="container">
+            <ul>
+                <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+                    <i>/</i></li>
+                <li>Checkout</li>
+            </ul>
+        </div>
+    </div>
+    <!-- //breadcrumbs -->
+    <div class="container">
+        <div class="shopping-cart">
+            {% if(productsInCart.products) %}
+                <!-- Title -->
+                <div class="title">
+                    Shopping Bag ({{ productsInCart.total }})
+                </div>
+                {% for cartItem in  productsInCart.products %}
+                    <div class="cart-item">
+                        <div class="cart-item-buttons">
+                            <span class="delete-btn"></span>
+                            <span class="like-btn"></span>
+                        </div>
+
+                        <div class="image">
+                            <img width="120" height="80" src="/uploads/products/images/{{ cartItem.product.images[0] }}" alt="{{ cartItem.product.name }}"/>
+                        </div>
+
+                        <div class="item-description">
+                            <span>{{ cartItem.product.name }}</span>
+                            <span>Bball High</span>
+                            <span>{{ cartItem.product.shortDescription }}</span>
+                        </div>
+
+                        <div class="quantity">
+                            <button class="plus-btn" type="button" name="button">
+                                <img src="{{ asset('assets/images/cart-plus.svg') }}" alt=""/>
+                            </button>
+                            <input type="text" name="name" value="{{ cartItem.qty }}">
+                            <button class="minus-btn" type="button" name="button">
+                                <img src="{{ asset('assets/images/cart-minus.svg') }}" alt=""/>
+                            </button>
+                        </div>
+
+                        <div class="total-price">${{ cartItem.product.prices[0].amount }}</div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,60 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+# app/config/routing.yml
+hwi_oauth_redirect:
+    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
+    prefix:   /connect
+
+hwi_oauth_connect:
+    resource: "@HWIOAuthBundle/Resources/config/routing/connect.xml"
+    prefix:   /connect
+
+hwi_oauth_login:
+    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
+    prefix:   /login
+
+admin:
+    resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'
+    prefix: /admin
+
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
+redcode_tree:
+    resource: "@RedCodeTreeBundle\/Resources/config/routing.yml"
+    prefix:   /admin
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+comur_image:
+    resource: "@ComurImageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Authentication routes
+login:
+  path: /connect/
+  defaults: { _controller: AppBundle:Auth:register }
+
+password_reset:
+  path: /password/reset/{token}
+  defaults: { _controller: AppBundle:Auth:passwordReset, token: ''}
+
+login_check:
+  path: /login/check
+
+facebook_login:
+  path: /login/facebook
+
+google_login:
+  path: /login/google
+
+instagram_login:
+  path: /login/instagram
+
+logout:
+  path: /logout

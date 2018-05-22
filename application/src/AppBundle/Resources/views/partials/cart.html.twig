@@ -1,0 +1,11 @@
+<div class="cart box_1">
+    <a href="{{ path('cart') }}">
+        <div class="total">
+            <span class="simpleCart_total"></span>
+            (<span id="simpleCart_quantity" class="simpleCart_quantity">0</span> {% trans %} cart_items {% endtrans %})
+        </div>
+        <img src="{{ asset('assets/images/bag.png') }}" alt=""/>
+    </a>
+    <p><a href="javascript:;" class="simpleCart_empty">{% trans %}Empty Cart{% endtrans %}</a></p>
+    <div class="clearfix"></div>
+</div>

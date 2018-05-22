@@ -1,0 +1,12 @@
+<div class="header">
+    <div class="container">
+        {#{% include '@App/partials/header-grid.html.twig' %}#}
+        <div class="w3l_logo">
+            <a href="{{ path('home') }}">
+                <img src="{{ asset('assets/images/logo.jpg') }} " class="img-responsive" alt="">
+            </a>
+        </div>
+        {% include '@App/partials/cart.html.twig' %}
+        <div class="clearfix"></div>
+    </div>
+</div>

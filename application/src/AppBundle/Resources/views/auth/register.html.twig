@@ -1,0 +1,96 @@
+{% extends '@App/layouts/base.html.twig' %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8"
+                 style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
+                <div class="sap_tabs">
+                    <div id="auth" style="display: block; width: 100%; margin: 0px;">
+                        <ul>
+                            <li class="resp-tab-item" aria-controls="tab_item-0">
+                                <span>{% trans %}login{% endtrans %}</span>
+                            </li>
+                            <li class="resp-tab-item" aria-controls="tab_item-1">
+                                <span>{% trans %}register{% endtrans %}</span>
+                            </li>
+                        </ul>
+                        <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                            <div class="facts">
+                                <div class="register">
+                                    <form method="post" id="form_login" action="/connect/login">
+                                        <div class="form-group">
+                                            <label class="control-label required" for="login_username">{% trans %}
+                                                username{% endtrans %}</label>
+                                            <input type="text" name="username" required="required" class="form-control">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label required" for="login_password">{% trans %}
+                                                password{% endtrans %}</label>
+                                            <input type="password" name="password" required="required" class="form-control">
+                                        </div>
+                                        <input type="hidden" name="_csrf_token"
+                                               value="{{ csrf_token('authenticate') }}">
+
+                                        <div class="sign-up">
+                                            <input type="submit" value="{% trans %}login{% endtrans %}"
+                                                   id="login_submit"/>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+                            <div class="facts">
+                                <div class="register">
+                                    {% form_theme form 'bootstrap_3_layout.html.twig' %}
+                                    {{ form_start(form, {'attr': {'id': 'form_register', 'data-toggle':'validator'}}) }}
+                                    {{ form_row(form.username) }}
+                                    {{ form_row(form.phone) }}
+                                    {{ form_row(form.email) }}
+                                    {{ form_row(form.plainPassword.first) }}
+                                    {{ form_row(form.plainPassword.second) }}
+                                    <div class="sign-up">
+                                        <input type="submit" value="{% trans %}register{% endtrans %}"
+                                               id="register_submit"/>
+                                    </div>
+                                    {{ form_end(form) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="OR" class="hidden-xs">
+                </div>
+            </div>
+            <div class="col-md-4 modal_body_right modal_body_right1">
+                <div class="row text-center sign-with">
+                    <div class="col-md-12">
+                        <h3 class="other-nw">
+                            {% trans %}sign_in_with{% endtrans %}</h3>
+                        </h3>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="social">
+                            <li class="social_facebook"><a
+                                        href="{{ path('hwi_oauth_service_redirect', {'service': 'facebook' }) }}"
+                                        class="entypo-facebook"></a></li>
+                            <li class="social_google"><a
+                                        href="{{ path('hwi_oauth_service_redirect', {'service': 'google' }) }}"
+                                        class="entypo-google"></a></li>
+                            <li class="social_instagram"><a
+                                        href="{{ path('hwi_oauth_service_redirect', {'service': 'instagram' }) }}"
+                                        class="entypo-instagram"></a></li>
+                            <li class="social_behance"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('assets/register.js') }}"></script>
+{% endblock %}

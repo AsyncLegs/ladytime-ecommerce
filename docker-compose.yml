@@ -1,0 +1,37 @@
+version: '3.5'
+services:
+  beanstalkd:
+    image: 'vinsonzou/alpine-beanstalkd'
+    container_name: symfony-beanstalkd
+    ports:
+      - 11300:11300
+#  redis:
+#    image: 'redis:alpine'
+#    container_name: symfony-redis
+  mysql:
+    image: 'mysql:5.6'
+    container_name: symfony-mysql
+    ports:
+      - '3306:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=toor
+      - MYSQL_DATABASE=ladytime
+      - MYSQL_USER=ladytime
+      - MYSQL_PASSWORD=ladytime
+  php-fpm:
+    build: docker/php-fpm
+    container_name: symfony-php-fpm
+    working_dir: /var/www/html
+    volumes:
+      - './application:/var/www/html'
+      - './docker/php-fpm/php-ini-overrides.ini:/etc/php/7.0/fpm/conf.d/99-overrides.ini'
+  webserver:
+    image: 'nginx:alpine'
+    container_name: symfony-webserver
+    working_dir: /var/www/html
+    volumes:
+      - './application:/var/www/html'
+      - './docker/nginx/application.conf:/etc/nginx/conf.d/default.conf'
+    ports:
+      - '80:80'
+

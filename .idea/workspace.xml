@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6bbeaa5-ce38-45c2-be80-2dd17ee943f6" name="Default" comment="Continue working with MVP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/application/frontend/sass/style.scss" afterPath="$PROJECT_DIR$/application/frontend/sass/style.scss" />
+      <change beforePath="$PROJECT_DIR$/application/src/AppBundle/Entity/Currency.php" afterPath="$PROJECT_DIR$/application/src/AppBundle/Entity/Currency.php" />
+      <change beforePath="$PROJECT_DIR$/application/src/AppBundle/Service/Synchronization/Currency/CurrencySynchronizer.php" afterPath="$PROJECT_DIR$/application/src/AppBundle/Service/Synchronization/Currency/CurrencySynchronizer.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthenticationHandler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Security/Handlers/AuthenticationHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SynchronizeCurrencies.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Command/SynchronizeCurrencies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrencySynchronizeListener.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Listeners/CurrencySynchronizeListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrencySynchronizer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Synchronization/Currency/CurrencySynchronizer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Currency.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Entity/Currency.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+              <folding>
+                <element signature="e#36#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>entityManager</find>
+      <find>$currencyEntity</find>
+      <find>AppBundle\Service\Synchronization\Interfaces\ReceiverInterface</find>
+      <find>SonataMediaBundle</find>
+      <find>array(</find>
+      <find>title</find>
+      <find>.simpleCart_shelfItem p a</find>
+      <find>/images/</find>
+      <find>hs-wrapper</find>
+      <find>modal</find>
+      <find>flexslider</find>
+      <find>rating</find>
+      <find>http://</find>
+      <find>simpleCart</find>
+      <find>cart box_1</find>
+      <find>items</find>
+      <find>.wmuSliderPagination a.wmuActive</find>
+      <find>simpleCart_empty</find>
+      <find>a.simpleCart_empty</find>
+      <find>.hs-wrapper</find>
+      <find>0px</find>
+      <find>&lt;a class=&quot;item_add&quot;</find>
+      <find>sensio_framework_extra</find>
+      <find>close1</find>
+      <find>2</find>
+      <find>png</find>
+      <find>des</find>
+      <find>description</find>
+      <find>buttons</find>
+      <find>sonata_type_model</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>assets/images/</replace>
+      <replace>protected</replace>
+      <replace>em</replace>
+      <replace>$currentCurrency</replace>
+      <replace>[</replace>
+      <replace>/assets/images/</replace>
+      <replace>0</replace>
+      <replace>cart-description</replace>
+      <replace>item-description</replace>
+      <replace>cart-item-buttons</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/src/AppBundle</dir>
+      <dir>$PROJECT_DIR$/frontend/js</dir>
+      <dir>$PROJECT_DIR$/frontend</dir>
+      <dir>$PROJECT_DIR$/src/AppBundle/Resources/views</dir>
+      <dir>$PROJECT_DIR$/frontend/sass</dir>
+      <dir>$PROJECT_DIR$/src/AppBundle/Resources</dir>
+      <dir>$PROJECT_DIR$/application/src/AppBundle/Admin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Currency.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/CurrencyRepository.php" />
+        <option value="$PROJECT_DIR$/frontend/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/frontend/sass/popup-box.css" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/ProductPriceType.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Admin/CategoryAdmin.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/Base/BaseController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Doctrine/DefaultRolesSettingListener.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/store/category.html.twig" />
+        <option value="$PROJECT_DIR$/frontend/js/application.js" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/partials/cart.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/translations/messages.ru.yml" />
+        <option value="$PROJECT_DIR$/frontend/js/store.js" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Product.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/API/ProductController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ProductController.php" />
+        <option value="$PROJECT_DIR$/frontend/sass/global.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/store/cart2.html.twig" />
+        <option value="$PROJECT_DIR$/frontend/sass/style.scss" />
+        <option value="$PROJECT_DIR$/frontend/sass/_fonts.scss" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/store/cart.html.twig" />
+        <option value="$PROJECT_DIR$/frontend/sass/cart.scss" />
+        <option value="$PROJECT_DIR$/docker/app/install-composer.sh" />
+        <option value="$PROJECT_DIR$/docker/app/php.ini" />
+        <option value="$PROJECT_DIR$/ppm.json" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker/php-fpm/php-ini-overrides.ini" />
+        <option value="$PROJECT_DIR$/docker/php-fpm/php-fpm-startup" />
+        <option value="$PROJECT_DIR$/application/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Entity/Profile.php" />
+        <option value="$PROJECT_DIR$/application/app/config/parameters.yml.dist" />
+        <option value="$PROJECT_DIR$/application/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/docker/php-fpm/Dockerfile" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Entity/Role.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Doctrine/HashPasswordListener.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Admin/BannerAdmin.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Admin/RoleAdmin.php" />
+        <option value="$PROJECT_DIR$/application/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Admin/CategoryAdmin.php" />
+        <option value="$PROJECT_DIR$/application/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Admin/UserAdmin.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Controller/API/ProductController.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Service/Synchronization/Currency/CurrencySynchronizer.php" />
+        <option value="$PROJECT_DIR$/application/src/AppBundle/Entity/Currency.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/application/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/hwi/oauth-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/buzz" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/mailgun/mailgun-php" />
+      <path value="$PROJECT_DIR$/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/multipart-stream-builder" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/cspoo/swiftmailer-mailgun-bundle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/vendor/misd/phone-number-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-orm-admin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/datagrid-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/block-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/admin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/cache" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/core-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu-bundle" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/redcode/tree-bundle" />
+      <path value="$PROJECT_DIR$/vendor/leezy/pheanstalk-bundle" />
+      <path value="$PROJECT_DIR$/vendor/pda/pheanstalk" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/jsrouting-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/comur/image-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/translation-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Command" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Doctrine" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Listeners" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Handlers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Provider" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Synchronization" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ladytime" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ladytime" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Synchronization" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Currency" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="curre&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/application/src/AppBundle/Entity/Currency.php&#10;compos&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/docker-compose.yml&#10;User&#9;null&#9;null&#10;Profile&#9;null&#9;null&#10;cart&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/cart.scss&#10;produc&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Entity/Product.php&#10;composer.json&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/composer.json&#10;composer&#9;null&#9;null&#10;config&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/config.yml&#10;scss&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/style.scss&#10;app&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/AppKernel.php&#10;style&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/style.scss&#10;categ&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Entity/Category.php&#10;ser&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/services.yml&#10;routing&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/routing.yml&#10;rout&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/routing.yml&#10;conf&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/config.yml&#10;servi&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/services.yml&#10;appker&#9;null&#9;null&#10;Curre&#9;null&#9;null&#10;service&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/services.yml&#10;sty&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/style.scss&#10;user&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Entity/User.php&#10;routin&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/routing.yml&#10;image&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/views/Form/admin/image.html.twig&#10;markEntity&#9;null&#9;null&#10;markEntityToUpload&#9;null&#9;null&#10;banner&#9;null&#9;null&#10;Categ&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Entity/Category.php&#10;SERV&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/services.yml&#10;register&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/views/auth/register.html.twig&#10;Aut&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Controller/AuthController.php&#10;Authc&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Controller/AuthController.php&#10;composer.&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/composer.json&#10;globa&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/global.scss&#10;styl&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/sass/style.scss&#10;secur&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/security.yml&#10;accoun&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/js/account/account.js&#10;authcontr&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Controller/AuthController.php&#10;auth&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Security/Handlers/AuthenticationHandler.php&#10;messa&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/translations/messages.ru.yml&#10;def&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Controller/DefaultController.php&#10;securi&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/security.yml&#10;regis&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/frontend/js/register.js&#10;ьу&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/translations/messages.ru.yml&#10;userRepo&#9;null&#9;null&#10;mes&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/translations/messages.ru.yml&#10;routi&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/routing.yml&#10;security&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/app/config/security.yml&#10;ьуыыф&#9;FILE&#9;file:///Users/thawy/Code/PHP/ladytime/src/AppBundle/Resources/translations/messages.ru.yml" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/nginx" />
+      <recent name="$PROJECT_DIR$/application" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Controller/API/Base" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/admin" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/admin/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/sass" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/store" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Resources/views/partials" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/Admin" />
+      <recent name="$PROJECT_DIR$/src/AppBundle/DTO" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6bbeaa5-ce38-45c2-be80-2dd17ee943f6" name="Default" comment="" />
+      <created>1502455014497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502455014497</updated>
+      <workItem from="1502455015784" duration="8053000" />
+      <workItem from="1502784345402" duration="20018000" />
+      <workItem from="1502828155460" duration="5919000" />
+      <workItem from="1503048750297" duration="116000" />
+      <workItem from="1503048940989" duration="18000" />
+      <workItem from="1503061088634" duration="3000" />
+      <workItem from="1503487089114" duration="13841000" />
+      <workItem from="1504028212082" duration="4991000" />
+      <workItem from="1504112203393" duration="10760000" />
+      <workItem from="1504341790520" duration="223000" />
+      <workItem from="1504342050151" duration="22959000" />
+      <workItem from="1504383312704" duration="10491000" />
+      <workItem from="1504395117686" duration="3723000" />
+      <workItem from="1504425004943" duration="6539000" />
+      <workItem from="1504454496731" duration="4477000" />
+      <workItem from="1504554913196" duration="19831000" />
+      <workItem from="1504732259437" duration="1109000" />
+      <workItem from="1504940881708" duration="18744000" />
+      <workItem from="1505071295679" duration="232000" />
+      <workItem from="1505071559402" duration="6494000" />
+      <workItem from="1505078153871" duration="49000" />
+      <workItem from="1505078233498" duration="3686000" />
+      <workItem from="1505322828026" duration="15000" />
+      <workItem from="1505322992190" duration="3458000" />
+      <workItem from="1505412420553" duration="42000" />
+      <workItem from="1505413711016" duration="748000" />
+      <workItem from="1505424271338" duration="23000" />
+      <workItem from="1505861209452" duration="625000" />
+      <workItem from="1506801341560" duration="2927000" />
+      <workItem from="1506845680443" duration="2704000" />
+      <workItem from="1506849841461" duration="50707000" />
+      <workItem from="1507465624262" duration="14010000" />
+      <workItem from="1507829512609" duration="436000" />
+      <workItem from="1507992942122" duration="1592000" />
+      <workItem from="1510860854983" duration="21000" />
+      <workItem from="1510860918590" duration="15000" />
+      <workItem from="1512300585973" duration="649000" />
+      <workItem from="1512301286517" duration="344000" />
+      <workItem from="1512301686252" duration="173000" />
+      <workItem from="1512301895817" duration="15067000" />
+      <workItem from="1513189788184" duration="2058000" />
+      <workItem from="1514317995293" duration="5518000" />
+      <workItem from="1517344687374" duration="2465000" />
+      <workItem from="1521546898364" duration="1617000" />
+      <workItem from="1521548659746" duration="3225000" />
+      <workItem from="1521555854951" duration="6147000" />
+      <workItem from="1521566343981" duration="1478000" />
+      <workItem from="1522053984162" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="Working with auth and register users">
+      <created>1502465507909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502465507909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working with OAUth">
+      <created>1502812337667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502812337667</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Registration stuff done&#10;Account page done&#10;new layouts&#10;a lot of minor and major changes">
+      <created>1504399162486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504399162487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Register and login finished">
+      <created>1504732172262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504732172262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="* Sonata admin bundle was added&#10;&#10;* Small refactoring">
+      <created>1504943802011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504943802011</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Working with sonata admin">
+      <created>1505080458020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505080458020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Migrate to Titbucket">
+      <created>1507141731289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507141731289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="278350000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="798" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18383405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32751092" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Working with auth and register users" />
+    <MESSAGE value="Working with OAUth" />
+    <MESSAGE value="Registration stuff done&#10;Account page done&#10;new layouts&#10;a lot of minor and major changes" />
+    <MESSAGE value="Register and login finished" />
+    <MESSAGE value="* Sonata admin bundle was added&#10;&#10;* Small refactoring" />
+    <MESSAGE value="Working with sonata admin" />
+    <MESSAGE value="Migrate to Titbucket" />
+    <MESSAGE value="Continue working with MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue working with MVP" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php-fpm/php-ini-overrides.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php-fpm/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Mapper/SocialAccount/Traits/SocialAccountTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Entity/ResetPasswordToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Entity/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Mapper/SocialAccount/GoogleAccountMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Notification/EmailNotificationService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Security/ResetPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Security/Provider/OAuthProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1220">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Form/User/RegisterForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Doctrine/HashPasswordListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="448" column="41" lean-forward="false" selection-start-line="448" selection-start-column="41" selection-end-line="448" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/Form/ProductPriceType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/BannerAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/CurrencyAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/PriceTypeAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/ProductAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/ProductPriceTypeAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/RoleAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/CategoryAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Resources/views/admin/sonata_admin_base_layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/sonata-project/admin-bundle/src/Resources/config/routing/sonata_admin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="136" column="13" lean-forward="false" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Admin/UserAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Doctrine/DefaultRolesSettingListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/API/Base/BaseAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/API/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Repository/ProductPriceRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Controller/Base/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Security/Handlers/AuthenticationHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/preloader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/cart2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/cart.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/frontend/sass/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Command/SynchronizeCurrencies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Listeners/CurrencySynchronizeListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Service/Synchronization/Currency/CurrencySynchronizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/AppBundle/Entity/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding>
+            <element signature="e#36#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

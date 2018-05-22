@@ -1,0 +1,68 @@
+# To get started with security, check out the documentation:
+# https://symfony.com/doc/current/security.html
+security:
+    encoders:
+        AppBundle\Entity\User:
+            algorithm: bcrypt
+            cost: 12
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: [ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+
+    # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    providers:
+        oauth:
+            id: ladytime.oauth.user_provider.service
+
+
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            pattern: ^/
+            form_login:
+                login_path: /connect
+                check_path: /connect/login
+                username_parameter: "username"
+                password_parameter: "password"
+                success_handler: ladytime.authentification.handler
+                failure_handler: ladytime.authentification.handler
+                default_target_path: "/account"
+
+            oauth:
+                login_path: /connect
+                failure_path: /connect
+
+                use_forward: false
+                resource_owners:
+                    facebook: "/login/facebook"
+                    google: "/login/google"
+                    instagram: "/login/instagram"
+                oauth_user_provider:
+                    service: ladytime.oauth.user_provider.service
+                failure_handler: ladytime.authentification.handler
+                default_target_path: "/account"
+
+            logout: true
+            anonymous: true
+
+        login:
+            pattern:  ^/login$
+            security: false
+
+            remember_me:
+                secret: "%secret%"
+                lifetime: 31536000
+                path: /
+                domain: ~
+
+    access_control:
+        - { path: ^/connect, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/account/, role: ROLE_USER }
+        - { path: ^/dashboard/, role: ROLE_ADMIN }

@@ -1,0 +1,34 @@
+account: Личный кабинет
+username: Имя пользователя
+phone: Номер телефона
+password: Пароль
+password_minimum: (минимум 5 символов)
+repeat_password: Повторите пароль
+register: Регистрация
+login: Войти
+register_success: Поздравляем, вы успешно зарегистрировались!
+login_success: Вы успешно авторизовались.
+login_error: Не удалось войти, неправильный логин или пароль.
+welcome_back: С возвращением,
+sign_in_with: Войти через соцсети
+email: Email
+cart_items: товаров на сумму
+Empty Cart: Очистить корзину
+Add to cart: В корзину
+Your shopping cart contains: "В вашей корзине:"
+Item: Товар
+Quantity: Всего
+Items: товаров
+Name: Название
+Title: Название
+Name: Название
+Slug: Ссылка
+Base Currency Name: Базовая валюта
+Value: Значение
+Updated At: Обновлено
+Currencies: Валюты
+Categories: Категории
+Users: Пользователи
+Groups: Группы
+Store: Магазин
+Banners: Баннеры

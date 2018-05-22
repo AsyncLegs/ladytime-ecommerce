@@ -1,0 +1,73 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssMissingSemicolon" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="12">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="wrapper" />
+            <item index="7" class="java.lang.String" itemvalue="container" />
+            <item index="8" class="java.lang.String" itemvalue="spacer" />
+            <item index="9" class="java.lang.String" itemvalue="row" />
+            <item index="10" class="java.lang.String" itemvalue="columns" />
+            <item index="11" class="java.lang.String" itemvalue="callout" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSLastCommaInObjectLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="MessDetectorValidationInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="CODESIZE" value="true" />
+      <option name="DESIGN" value="true" />
+      <option name="UNUSEDCODE" value="true" />
+      <option name="NAMING" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpAssignmentInConditionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpCSValidationInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="CODING_STANDARD" value="PSR2" />
+      <option name="SHOW_SNIFF_NAMES" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpConstantReassignmentInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PhpDocMissingReturnTagInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpDocSignatureInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpIllegalPsrClassPathInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpMethodOrClassCallIsNotCaseSensitiveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpMissingDocCommentInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="CHECK_FIELD" value="true" />
+      <option name="SKIP_EMPTY_FUNCTION" value="false" />
+      <option name="SKIP_EMPTY_METHOD" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpStaticAsDynamicMethodCallInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpToStringImplementationInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="STRICT_MODE" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PhpTraditionalSyntaxArrayLiteralInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpUndefinedCallbackInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpUnnecessaryFullyQualifiedNameInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="IGNORE_GLOBAL_NAMESPACE" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PhpUsageOfSilenceOperatorInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PhpVariableVariableInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

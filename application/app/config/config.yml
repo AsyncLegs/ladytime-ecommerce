@@ -1,0 +1,197 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    - { resource: services.yml }
+
+# Put parameters here that don't need to change on each machine where the app is deployed
+# https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
+parameters:
+    locale: ru
+    facebook_id: 141347543126904
+    facebook_secret: b90c6716da5851e07adfe49764386c29
+    google_id: 524195163156-avrm4eii57d7ne0b2qir1u4tl8lti7gn.apps.googleusercontent.com
+    google_secret: wVQoK3Qpfy1LCbC5Ax4YxNp-
+    instagram_id: 863f818587c8479d94df330b0e0b8587
+    instagram_secret: b6e80ab4f21944059d7ae6ab80e947a3
+    currencies:
+        external_api_url: 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5'
+        cache:
+            key: 'ladytime.cache.currencies'
+            expires: 86400
+
+framework:
+    #esi: ~
+    #translator: { fallbacks: ['%locale%'] }
+    secret: '%secret%'
+    router:
+        resource: '%kernel.project_dir%/app/config/routing.yml'
+        strict_requirements: ~
+    form: ~
+    csrf_protection: ~
+    validation: { enable_annotations: true }
+    #serializer: { enable_annotations: true }
+    templating:
+        engines: ['twig']
+    default_locale: '%locale%'
+    trusted_hosts: ~
+    session:
+        # https://symfony.com/doc/current/reference/configuration/framework.html#handler-id
+        handler_id: session.handler.native_file
+        save_path: '%kernel.project_dir%/var/sessions/%kernel.environment%'
+    fragments: ~
+    http_method_override: true
+    assets:
+        json_manifest_path: '%kernel.root_dir%/../web/assets/manifest.json'
+    php_errors:
+        log: true
+    translator: {fallbacks: [en]}
+
+# Twig Configuration
+twig:
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    form_themes:
+        - 'bootstrap_3_layout.html.twig'
+        - 'SonataCoreBundle:Form:color.html.twig'
+    globals:
+        products_uploads: 'images'
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        driver: pdo_mysql
+        host: '%database_host%'
+        port: '%database_port%'
+        dbname: '%database_name%'
+        user: '%database_user%'
+        password: '%database_password%'
+        charset: UTF8
+        server_version: '%database_server_version%'
+        types:
+            phone_number: Misd\PhoneNumberBundle\Doctrine\DBAL\Types\PhoneNumberType
+
+    orm:
+        auto_generate_proxy_classes: '%kernel.debug%'
+        entity_managers:
+             default:
+                naming_strategy: doctrine.orm.naming_strategy.underscore
+                auto_mapping: true
+                mappings:
+                    gedmo_translatable:
+                        type: annotation
+                        prefix: Gedmo\Translatable\Entity
+                        dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translatable/Entity"
+                        alias: GedmoTranslatable # (optional) it will default to the name set for the mapping
+                        is_bundle: false
+                    gedmo_translator:
+                        type: annotation
+                        prefix: Gedmo\Translator\Entity
+                        dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Translator/Entity"
+                        alias: GedmoTranslator # (optional) it will default to the name set for the mapping
+                        is_bundle: false
+                    gedmo_tree:
+                        type: annotation
+                        prefix: Gedmo\Tree\Entity
+                        dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                        alias: GedmoTree # (optional) it will default to the name set for the mapping
+                        is_bundle: false
+
+swiftmailer:
+    transport: "mailgun"
+    spool: { type: memory }
+
+cspoo_swiftmailer_mailgun:
+    key: "key-47689f8b64e73a0e88b3aabb4f01a1e5"
+    domain: "ladytime.com.ua"
+
+hwi_oauth:
+    firewall_names: [main]
+    resource_owners:
+        facebook:
+            type:   facebook
+            client_id:    "%facebook_id%"
+            client_secret:    "%facebook_secret%"
+            options:
+                display: popup #dialog is optimized for popup window
+                auth_type: rerequest # Re-asking for Declined Permissions
+                csrf:   true
+        google:
+            type:  google
+            client_id: "%google_id%"
+            client_secret: "%google_secret%"
+            scope: "email profile"
+            options:
+                csrf: true
+        instagram:
+            type: instagram
+            client_id: "%instagram_id%"
+            client_secret: "%instagram_secret%"
+            options:
+                csrf: true
+
+sonata_admin:
+    title: Ladytime Admin Panel
+    templates:
+        layout:  AppBundle:Admin:sonata_admin_base_layout.html.twig
+
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        sonata.admin.block.admin_list:
+            contexts: [admin]
+sonata_core:
+    form:
+        mapping:
+            enabled: false
+stof_doctrine_extensions:
+    default_locale: ru_RU
+    uploadable:
+        default_file_path:       "%kernel.root_dir%/../web/uploads"
+        mime_type_guesser_class: Stof\DoctrineExtensionsBundle\Uploadable\MimeTypeGuesserAdapter
+        default_file_info_class: Stof\DoctrineExtensionsBundle\Uploadable\UploadedFileInfo
+    orm:
+        default:
+            tree: true
+            timestampable: true
+            sluggable: true
+            uploadable: true
+leezy_pheanstalk:
+    pheanstalks:
+        primary:
+            server: beanstalkd
+            default: true
+
+comur_image:
+    config:
+        gallery_dir: 'images'
+        media_lib_thumb_size: 640
+
+# Nelmio CORS Configuration
+nelmio_cors:
+    defaults:
+        allow_credentials: false
+        allow_origin: ['*']
+        allow_headers: ['*']
+        allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+        max_age: 3600
+        hosts: []
+        origin_regex: false
+
+# FOSRest Configuration
+fos_rest:
+    body_listener: true
+    format_listener:
+        rules:
+            - { path: '^/api/', priorities: ['json'], fallback_format: json, prefer_extension: false }
+            - { path: ^/, priorities: ['html', '*/*'], fallback_format: html, prefer_extension: true }
+
+    param_fetcher_listener: true
+    view:
+        view_response_listener: 'force'
+        formats:
+            json: true
+
+sensio_framework_extra:
+    request:
+        converters: true
+        auto_convert: false

@@ -1,0 +1,11 @@
+{% extends 'SonataAdminBundle::standard_layout.html.twig' %}
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', {"callback": "fos.Router.setData"}) }}"></script>
+
+{% endblock %}
+{% block sonata_header %}
+    {% include "ComurImageBundle:Form:croppable_image_modal.html.twig" with {'include_jquery': false, 'include_bootstrap': false} %}
+    {{ parent() }}
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends '@App/layouts/base.html.twig' %}
+
+{% block content %}
+
+    <!-- banner -->
+    {% include '@App/widgets/main.top.banner.html.twig' %}
+    <!-- //banner -->
+
+    <!-- banner-bottom -->
+
+    <!-- //banner-bottom -->
+    {% include '@App/widgets/main.bottom.banner.html.twig' %}
+    <!-- banner-bottom1 -->
+    {% include '@App/widgets/special.offer.html.twig'%}
+    <!-- //banner-bottom1 -->
+
+    <!-- special-deals -->
+    {% include '@App/widgets/special.deals.html.twig' %}
+    <!-- //special-deals -->
+    <!-- new-products -->
+    {% include '@App/widgets/new.products.html.twig' %}
+    <!-- //new-products -->
+    <!-- instagram widget -->
+    {% include '@App/widgets/instagram.html.twig' %}
+    <!-- //top-brands -->
+
+{% endblock %}
+
