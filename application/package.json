@@ -465,7 +465,7 @@
     "lodash.keys": "^2.4.1",
     "lodash.mapvalues": "^4.6.0",
     "lodash.memoize": "^4.1.2",
-    "lodash.mergewith": "^4.6.0",
+    "lodash.mergewith": "^4.6.2",
     "lodash.restparam": "^3.6.1",
     "lodash.tail": "^4.1.1",
     "lodash.template": "^3.6.2",
