@@ -697,7 +697,7 @@
     "signal-exit": "^3.0.2",
     "slash": "^1.0.0",
     "sntp": "^1.0.9",
-    "sockjs": "^0.3.18",
+    "sockjs": "^0.3.20",
     "sockjs-client": "^1.1.4",
     "sort-keys": "^1.1.2",
     "source-list-map": "^0.1.8",
