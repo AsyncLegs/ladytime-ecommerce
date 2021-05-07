@@ -757,7 +757,7 @@
     "uglifyjs-webpack-plugin": "^0.4.6",
     "uid-number": "^0.0.6",
     "unc-path-regex": "^0.1.2",
-    "underscore": "^1.7.0",
+    "underscore": "^1.12.1",
     "underscore.string": "^2.4.0",
     "uniq": "^1.0.1",
     "uniqid": "^4.1.1",
