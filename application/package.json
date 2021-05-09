@@ -766,7 +766,7 @@
     "unpipe": "^1.0.0",
     "urix": "^0.1.0",
     "url": "^0.11.0",
-    "url-parse": "^1.1.9",
+    "url-parse": "^1.5.0",
     "user-home": "^1.1.1",
     "util": "^0.10.3",
     "util-deprecate": "^1.0.2",
