@@ -745,7 +745,7 @@
     "to-arraybuffer": "^1.0.1",
     "to-fast-properties": "^1.0.3",
     "tough-cookie": "^2.3.2",
-    "trim-newlines": "^1.0.0",
+    "trim-newlines": "^3.0.1",
     "trim-right": "^1.0.1",
     "tty-browserify": "^0.0.0",
     "tunnel-agent": "^0.6.0",
