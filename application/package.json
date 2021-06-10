@@ -191,7 +191,7 @@
     "css-loader": "^0.26.4",
     "css-select": "^1.2.0",
     "css-selector-tokenizer": "^0.7.0",
-    "css-what": "^2.1.0",
+    "css-what": "^5.0.1",
     "cssesc": "^0.1.0",
     "cssnano": "^3.10.0",
     "csso": "^2.3.2",
